@@ -1,4 +1,5 @@
 ﻿using System;
+using LeetCode_solutions.Easy;
 using LeetCode_solutions.Medium;
 
 namespace LeetCode_solutions
@@ -7,7 +8,7 @@ namespace LeetCode_solutions
     {
         public static void Main(string[] args)
         {
-            var result = LengthOfLongestSubstringSolution.LengthOfLongestSubstring("bbbbbb");
+            var result = ContainsDuplicateSolution.ContainsDuplicate(new int[]{1,1,2,5,6,9,8});
             Console.Out.Write(result);
         }
     }
