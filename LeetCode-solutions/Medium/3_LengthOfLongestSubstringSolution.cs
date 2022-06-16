@@ -4,13 +4,6 @@ using System.Collections.Generic;
 namespace LeetCode_solutions.Medium
 {
     public class LengthOfLongestSubstringSolution {
-        
-        public static void Main(string[] args)
-        {
-            var result = LengthOfLongestSubstring("bbbbbb");
-            Console.Out.Write(result);
-        }
-        
         public static int LengthOfLongestSubstring(string s)
         {
             int longestLength = 0;

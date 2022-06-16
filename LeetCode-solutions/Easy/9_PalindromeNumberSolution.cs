@@ -1,8 +1,8 @@
-﻿namespace LeetCode_solutions
+﻿namespace LeetCode_solutions.Easy
 {
-    public class PalindromeNumber
+    public class PalindromeNumberSolution
     {
-        public bool IsPalindrome(int x) {
+        public static bool IsPalindrome(int x) {
             if(x < 0) return false;
         
             string xs = x.ToString();

@@ -1,8 +1,8 @@
 ﻿namespace LeetCode_solutions.Medium
 {
-    public class Solution
+    public class AddTwoNumbersSolution
     {
-        public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+        public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             int reminder = 0;
             var result = new ListNode();

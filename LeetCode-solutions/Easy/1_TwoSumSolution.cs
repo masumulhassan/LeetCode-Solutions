@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace LeetCode_solutions
+namespace LeetCode_solutions.Easy
 {
-    public class TwoSumSol
+    public class TwoSumSolution
     {
-        
         public static int[] TwoSum(int[] nums, int target)
         {
             Dictionary<int, int> previous = new Dictionary<int, int>();
