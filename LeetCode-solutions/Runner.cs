@@ -8,7 +8,7 @@ namespace LeetCode_solutions
     {
         public static void Main(string[] args)
         {
-            var result = ContainsDuplicateSolution.ContainsDuplicate(new int[]{1,1,2,5,6,9,8});
+            var result = GroupAnagramsSolution.GroupAnagrams(new []{"eat","tea","tan","ate","nat","bat"});
             Console.Out.Write(result);
         }
     }
